@@ -7,6 +7,11 @@ pipeline {
                     echo 'Hello Naseem'
                 }
         }
+        stage('Chekout') {
+                steps {
+                    echo 'Checkout project'
+                }
+        }
         stage('Build') {
                 steps {
                     echo 'Building progect'
