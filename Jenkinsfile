@@ -27,7 +27,7 @@ pipeline {
                     echo 'Release project'
                 }
         }
-        stage('Release') {
+        stage('Release2') {
                 steps {
                     echo 'Release project'
                 }
